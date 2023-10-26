@@ -1,4 +1,4 @@
-FROM quantumentangledandy/neolink:latest
+FROM quantumentangledandy/neolink:feature-push_mqtt
 
 RUN apt-get update && \
     apt-get install -y \
