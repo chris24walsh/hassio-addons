@@ -1,4 +1,4 @@
 # https://developers.home-assistant.io/docs/add-ons/repository#repository-configuration
-name: dm82m Home Assistant add-on repository
-url: 'https://github.com/dm82m/hassio-addons'
-maintainer: Dirk <dirk@maucher-online.de>
+name: chris24walsh/hassio-addons
+url: 'https://github.com/chris24walsh/hassio-addons'
+maintainer: Chris <chris24walsh@gmail.com>
