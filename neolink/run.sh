@@ -1,6 +1,7 @@
 #!/bin/bash
 set -e
 
+RUST_LOG="neolink=debug"
 CONFIG_PATH=/data/options.json
 
 MODE=$(jq --raw-output '.mode // empty' $CONFIG_PATH)
