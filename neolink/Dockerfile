@@ -9,4 +9,6 @@ RUN apt-get update && \
 COPY run.sh /
 RUN chmod a+x /run.sh
 
+ENV RUST_LOG debug
+
 CMD [ "/run.sh" ]

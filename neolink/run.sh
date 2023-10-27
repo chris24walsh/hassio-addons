@@ -1,8 +1,6 @@
 #!/bin/bash
 set -e
 
-ENV RUST_LOG debug
-
 CONFIG_PATH=/data/options.json
 
 MODE=$(jq --raw-output '.mode // empty' $CONFIG_PATH)
