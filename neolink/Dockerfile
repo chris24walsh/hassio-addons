@@ -9,6 +9,6 @@ RUN apt-get update && \
 COPY run.sh /
 RUN chmod a+x /run.sh
 
-ENV RUST_LOG debug
+ENV RUST_LOG neolink=debug
 
 CMD [ "/run.sh" ]
