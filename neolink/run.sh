@@ -7,7 +7,7 @@ MODE=$(jq --raw-output '.mode // empty' $CONFIG_PATH)
 LOG=$(jq --raw-output '.log // empty' $CONFIG_PATH)
 
 echo "--- VERSIONS ---"
-echo "add-on version: 0.0.8.1"
+echo "add-on version: 0.0.8.2"
 echo -n "neolink version: " && neolink --version
 echo "neolink mode: ${MODE}"
 echo "neolink log: ${LOG}"
